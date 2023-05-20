@@ -1,5 +1,5 @@
 
-"""Guess number """
+"""Guessing  number Game """
 
 import random
 
@@ -15,6 +15,9 @@ def guess(number):
 
     print(f"Yeah, congrats, You have guessed the number {random_number}. correctly!!")
 
+
+
+""" Computer Guessing  Game """
 
 def computer_guess(x):
     low = 1
@@ -35,5 +38,5 @@ def computer_guess(x):
         print(f"Yeah, The computer guessed your number guessed, {guess}. correctly!!")
 
 
-#guess(10)
+guess(10)
 computer_guess(10)
